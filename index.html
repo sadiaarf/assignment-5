@@ -121,11 +121,11 @@
                                 </p>
                             </div>
                         </div>
-                        <div >
-                            <button  class="btn text-xl text-[#1DD100] bg-gray-200 text-md font-semibold ">
+                        <div>
+                            <button class="btn text-xl text-[#1DD100] bg-gray-200 text-md font-semibold ">
                                 <img src="images/seat-green.png" alt="">
-                              <h1 id="count-container">8</h1>
-                              <h1>seats left</h1>
+                                <h1 id="count-container">8</h1>
+                                <h1>seats left</h1>
                             </button>
                         </div>
 
@@ -155,7 +155,7 @@
                     <div>
                         <div class="ml-[900px]">
                             <img src="images/fare.png" height="30px" width="30px" alt="">
-                            <p class="text-xl text-black font-bold">550 taka</p>
+                            <p  class="text-xl text-black font-bold">550 taka</p>
                             <p class="text-gray-600">Per Seat</p>
                         </div>
                     </div>
@@ -163,8 +163,8 @@
             </div>
             </div>
         </section>
-        <section class="m-10 bg-white shadow-xl flex p-10 gap-16">
-          
+        <section class="m-10 bg-white shadow-xl rounded-xl flex p-10 gap-16">
+
             <!-- main div -->
             <div>
                 <!-- left part -->
@@ -184,37 +184,32 @@
                     </div>
                 </div>
                 <div class="py-3">
-                    <button class="btn btn-active pr-7 pl-7 ml-[460px]"><img src="images/tabler-icon-steering-wheel.png" alt=""></button>
+                    <button class="btn btn-active pr-7 pl-7 ml-[460px]"><img src="images/tabler-icon-steering-wheel.png"
+                            alt=""></button>
                 </div>
                 <!-- seat -->
                 <div class="seat-container">
-                <div class="flex gap-44 py-8">
-                    <!-- a -->
-                    <div class="py-1 gap-16 flex">
-                        <button class="add-btn btn pr-9 pl-9">A1</button>
-                        <button class="add-btn btn pr-9 pl-9">A2</button>
-                        <button class="add-btn btn pr-9 pl-9">A3</button>
-                        <button class="add-btn btn pr-9 pl-10">A4</button>
+                    <div class="flex gap-44 py-8">
+                        <!-- a -->
+                        <div class="py-1 gap-16 flex">
+                            <button class="add-btn btn pr-9 pl-9">A1</button>
+                            <button class="add-btn btn pr-9 pl-9">A2</button>
+                            <button class="add-btn btn pr-9 pl-9">A3</button>
+                            <button class="add-btn btn pr-9 pl-10">A4</button>
+                        </div>
+                       
                     </div>
-                    <!-- <div>
-                        <button class="add-btn btn pr-9 pl-9">A3</button>
-                        <button class="add-btn btn pr-9 pl-10">A4</button>
-                    </div> -->
-                </div>
-                <!-- b -->
-                <div >
-                    <div class="flex gap-16 py-1">
-                        <button class="add-btn btn pr-9 pl-9">B1</button>
-                        <button class="add-btn btn pr-9 pl-9">B2</button>
-                        <button class="add-btn btn pr-9 pl-9">B3</button>
-                        <button class="add-btn btn pr-9 pl-10">B4</button>
+                    <!-- b -->
+                    <div>
+                        <div class="flex gap-16 py-1">
+                            <button class="add-btn btn pr-9 pl-9">B1</button>
+                            <button class="add-btn btn pr-9 pl-9">B2</button>
+                            <button class="add-btn btn pr-9 pl-9">B3</button>
+                            <button class="add-btn btn pr-9 pl-10">B4</button>
+                        </div>
+                       
                     </div>
-                    <!-- <div class="py-3">
-                        <button class="add-btn btn pr-9 pl-9">B3</button>
-                        <button class="add-btn btn pr-9 pl-10">B4</button>
-                    </div> -->
                 </div>
-            </div>
             </div>
             <!-- right -->
             <div>
@@ -223,45 +218,30 @@
                 <br>
                 <!-- seat class free -->
                 <div class="bg-gray-100 rounded-xl w-[430px] pl-4 pt-7 pb-7">
-                <div class="flex gap-[90px]">
-                    <div class="flex gap-3">
-                        <p class="text-black font-bold text-lg">Seat</p>
-                        <h1 id="count-increased" class="bg-[#1DD100] pr-4 pl-4 rounded-full font-bold">0</h1>
+                    <div class="flex gap-[90px]">
+                        <div class="flex gap-3">
+                            <p class="text-black font-bold text-lg">Seat</p>
+                            <h1 id="count-increased" class="bg-[#1DD100] pr-4 pl-4 rounded-full font-bold">0</h1>
+                        </div>
+                        <p class="text-black font-bold">Class</p>
+                        <p class="text-black font-bold ml-[48px]">Free</p>
+                        
                     </div>
-                    <p class="text-black font-bold">Class</p>
-                    <p class="text-black font-bold ml-[48px]">Free</p>
+                   
+                </div>
+                <div id="changed-value" class="flex text-black gap-80">
+                    <p class="font-bold">Total Price</p>
+                    <p>0000</p>
+                </div>
+                <div id="changed-value" class="flex text-black gap-[311px]">
+                    <p class="font-bold">Grand Total</p>
+                    <p>0000</p>
                 </div>
                 <br>
-              
-                <!-- <div id="changed-value" class="flex gap-[136px]">
-                    <h2 class="font-bold">A1</h2>
-                    <h2 class="font-bold">economy</h2>
-                    <h2 class="font-bold">550</h2>
-                </div>
-                <div id="changed-value" class="flex gap-[136px]">
-                    <h2 class="font-bold">A2</h2>
-                    <h2 class="font-bold">economy</h2>
-                    <h2 class="font-bold">550</h2>
-                </div>
-                <div id="changed-value" class="flex gap-[136px]">
-                    <h2 class="font-bold">A3</h2>
-                    <h2 class="font-bold">economy</h2>
-                    <h2 class="font-bold">550</h2>
-                </div> -->
+                <button class="btn bg-[#1DD100] pl-48 pr-52 font-bold">Next</button>
             </div>
-            <div id="changed-value" class="flex text-black gap-80">
-                <p class="font-bold">Total Price</p>
-                <p>0000</p>
-            </div>
-            <div id="changed-value" class="flex text-black gap-[311px]">
-                <p class="font-bold">Grand Total</p>
-                <p>0000</p>
-            </div>
-            <br>
-            <button class="btn bg-[#1DD100] pl-48 pr-52 font-bold">Next</button>
-        </div>
         </section>
-    
+
     </main>
     <footer>
         <footer class="footer p-20 bg-black text-neutral-content">
@@ -296,6 +276,7 @@
             </div>
         </footer>
     </footer>
-<script src="style/js/ticket.js"></script>
+    <script src="style/js/ticket.js"></script>
 </body>
+
 </html>
